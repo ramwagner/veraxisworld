@@ -1,97 +1,72 @@
+
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Veraxis World</title>
-
 <style>
-
-body{
-margin:0;
-font-family:Arial, Helvetica, sans-serif;
-background:#f5f7fb;
-text-align:center;
-color:#1c2e4a;
-}
-
-.container{
-margin-top:120px;
-}
-
-.logo{
-width:380px;
-margin-bottom:30px;
-}
-
-h1{
-font-size:48px;
-letter-spacing:3px;
-margin:0;
-}
-
-.slogan{
-font-size:22px;
-margin-top:10px;
-color:#5b6b82;
-}
-
-.description{
-margin-top:40px;
-font-size:18px;
-max-width:700px;
-margin-left:auto;
-margin-right:auto;
-line-height:1.6;
-color:#3b4b63;
-}
-
-.footer{
-margin-top:80px;
-font-size:14px;
-color:#7c8aa5;
-}
-
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f4f6fa;color:#122033;}
+.topbar{background:#0f1f33;color:white;padding:16px 40px;display:flex;justify-content:space-between;align-items:center;}
+.brand{font-size:26px;font-weight:700;}
+.nav a{color:white;text-decoration:none;margin:0 15px;font-weight:600;}
+.hero{text-align:center;padding:70px 20px;background:white;}
+.hero img{width:320px;margin-bottom:20px;}
+.hero h1{font-size:48px;margin:0;}
+.slogan{font-size:22px;color:#4b5e78;margin-top:10px;}
+.section{max-width:1100px;margin:auto;padding:40px 20px;}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+.card{background:white;padding:20px;border:1px solid #ddd;}
+.footer{background:#0f1f33;color:white;text-align:center;padding:20px;}
 </style>
-
 </head>
-
 <body>
 
-<div class="container">
-
-<img src="logo.png" class="logo">
-
-<h1>VERAXIS WORLD</h1>
-
-<div class="slogan">
-El eje de análisis del mundo
+<div class="topbar">
+<div class="brand">VERAXIS WORLD</div>
+<div class="nav">
+<a href="politics.html">Politics</a>
+<a href="economics.html">Economics</a>
+<a href="technology.html">Technology</a>
+<a href="global-strategy.html">Global Strategy</a>
+<a href="markets.html">Markets</a>
+<a href="publications.html">Publications</a>
+</div>
 </div>
 
-<div class="description">
+<div class="hero">
+<img src="logo.png">
+<h1>VERAXIS WORLD</h1>
+<div class="slogan">El eje de análisis del mundo</div>
+</div>
 
-Veraxis World es una plataforma global dedicada al análisis de los
-principales sistemas que influyen en el mundo contemporáneo: geopolítica,
-economía, innovación tecnológica y dinámicas globales.
+<div class="section">
+<div class="grid">
+<div class="card"><h3>Politics</h3></div>
+<div class="card"><h3>Economics</h3></div>
+<div class="card"><h3>Technology</h3></div>
+<div class="card"><h3>Global Strategy</h3></div>
+</div>
+</div>
 
-El proyecto se encuentra actualmente en desarrollo.
+<div class="section">
+<h2>Breaking Economics News</h2>
+<p>Noticias económicas de impacto global aparecerán aquí.</p>
+</div>
 
+<div class="section">
+<h2>Markets & Live Data</h2>
+<p>Enlaces a mercados y cobertura en vivo.</p>
+</div>
+
+<div class="section">
+<h2>Publicaciones destacadas</h2>
+<p>Artículos importantes aparecerán aquí.</p>
 </div>
 
 <div class="footer">
-veraxisworld.com
-</div>
-
+© Veraxis World
 </div>
 
 </body>
-<nav class="topnav">
-<a href="#">Geopolítica</a>
-<a href="#">Economía</a>
-<a href="#">Tecnología</a>
-<a href="#">Estrategia Global</a>
-<a href="#">Publicaciones</a>
-</nav>
-
-<div class="container">
 </html>
